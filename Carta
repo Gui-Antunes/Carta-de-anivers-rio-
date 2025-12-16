@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Maria ❤️</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5e6d3 0%, #e8d4bf 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-family: 'Georgia', serif;
+        }
+
+        .carta-container {
+            max-width: 700px;
+            width: 100%;
+            background: #f9f3eb;
+            padding: 60px 50px;
+            position: relative;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .carta-container::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            border: 2px solid #c9a882;
+        }
+
+        .carta-container::after {
+            content: '';
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            right: 25px;
+            bottom: 25px;
+            border: 1px solid #d4b896;
+        }
+
+        .conteudo {
+            position: relative;
+            z-index: 1;
+            color: #000;
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        .titulo-principal {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 35px;
+        }
+
+        .saudacao {
+            font-size: 20px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        .paragrafo {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .agradecimentos {
+            margin: 30px 0;
+            padding-left: 20px;
+            font-style: italic;
+        }
+
+        .caixa-presente {
+            margin: 35px 0;
+            padding: 25px;
+            border-top: 2px solid #c9a882;
+            border-bottom: 2px solid #c9a882;
+        }
+
+        .despedida {
+            margin-top: 35px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .feliz-aniversario {
+            margin-top: 30px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .foto-final {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .foto-final img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            .carta-container {
+                padding: 40px 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carta-container">
+        <div class="conteudo">
+
+            <h1 class="titulo-principal">Parabéns meu amor!</h1>
+
+            <p class="saudacao">Oi, meu amor, tudo bem?</p>
+
+            <p class="paragrafo">
+                Fico muito feliz de estar mais um dia aqui ao seu lado, comemorando o seu aniversário.
+                Estar com você hoje é uma alegria enorme e uma certeza ainda maior de que é ao seu lado
+                que eu quero viver todos os dias da minha vida.
+            </p>
+
+            <p class="paragrafo">
+                Sou muito feliz por estar sempre com você, em todos os momentos, nos difíceis, que nos
+                ensinam, e nos maravilhosos, que aquecem o coração. Um desses momentos inesquecíveis foi
+                o nosso casamento na igreja, que sempre vai morar na minha memória como um dia muito
+                especial da nossa história.
+            </p>
+
+            <div class="agradecimentos">
+                <p>Obrigado por me escolher pelo resto da sua vida.</p>
+                <p>Obrigado pelo presente lindo que você me deu, nossos filhos.</p>
+                <p>Obrigado por ser essa esposa incrivelmente forte e parceira.</p>
+                <p>Obrigado por ser quem você é.</p>
+            </div>
+
+            <p class="paragrafo">
+                Quero que você saiba que você é a pessoa mais importante da minha vida.
+                E, apesar de tudo o que a gente enfrenta, é com você que eu quero ficar,
+                pra todo o tempo.
+            </p>
+
+            <div class="caixa-presente">
+                <p class="paragrafo">
+                    Essa caixa foi preparada com muito amor para um momento só seu.
+                    Os sais minerais e a vela aromática são para um banho relaxante,
+                    para renovar as energias e trazer calma.
+                </p>
+
+                <p class="paragrafo">
+                    O mini-champanhe é para você aproveitar sozinha, durante o banho,
+                    brindando à sua vida, ao seu dia e a tudo o que você é.
+                </p>
+            </div>
+
+            <div class="despedida">
+                <p>Eu te amo demais, demais, demais, demais.</p>
+                <p>Você é tudo pra mim, minha Maria.</p>
+                <p>Te amo muito, meu amor.</p>
+            </div>
+
+            <p class="feliz-aniversario">Feliz aniversário ❤️</p>
+
+            <!-- FOTO FINAL -->
+            <div class="foto-final">
+                <img src="foto-anime.jpg" alt="Nossa foto especial">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
